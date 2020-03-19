@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Digimind</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="labor">What do you want to remember to do?</string>
+    <string name="CuandoSeHAce">When do you want to do it?</string>
+    <string name="aQueHora">At what time?</string>
+
+    <string name="Lunes">Monday</string>
+    <string name="Martes">Tuesday</string>
+    <string name="Miercoles">Wednesday</string>
+    <string name="Jueves">Thursday</string>
+    <string name="Viernes">Friday</string>
+    <string name="Sabado">Saturday</string>
+    <string name="Domingo">Sunday</string>
+
+
+</resources>
+

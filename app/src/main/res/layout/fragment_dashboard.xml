@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logobrain"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+     />
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:paddingRight="69dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/labor"
+        android:textColor="@color/colorPreguntas"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="69dp"
+        android:hint="Take my pill"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:paddingRight="69dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="15sp"
+        android:text="@string/CuandoSeHAce"
+        android:textStyle="italic"
+        android:textColor="@color/colorPreguntas"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textSize="20sp"
+        android:layoutDirection="rtl"
+        android:text="@string/Lunes"
+        android:layout_height="wrap_content"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textSize="20sp"
+        android:layoutDirection="rtl"
+        android:text="@string/Martes"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textSize="20sp"
+        android:layoutDirection="rtl"
+        android:text="@string/Miercoles"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textSize="20sp"
+        android:layoutDirection="rtl"
+        android:text="@string/Jueves"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textSize="20sp"
+        android:layoutDirection="rtl"
+        android:text="@string/Viernes"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textSize="20sp"
+        android:layoutDirection="rtl"
+        android:text="@string/Sabado"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textSize="20sp"
+        android:layoutDirection="rtl"
+        android:text="@string/Domingo"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="69dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/aQueHora"
+        android:textColor="@color/colorPreguntas"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="69dp"
+        android:hint="Set time"
+        android:textSize="18sp" />
+
+</LinearLayout>
