@@ -71,7 +71,7 @@ class DashboardFragment : Fragment() {
 
              Toast.makeText(root.context, "new task added", Toast.LENGTH_SHORT).show()
          }
-        
+
         return root
 
 
